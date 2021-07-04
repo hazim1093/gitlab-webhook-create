@@ -1,0 +1,16 @@
+[
+    {
+		"projectName":"mygroup/lab/react-app",
+		"webhookURL":"https://el-pipeline.example.com/",
+		"pushEvents" :"true",
+		"pushEventsBranchFilter" : "master",
+		"mergeRequestEvents" : "false"
+    },
+    {
+		"projectName":"mygroup/frontend/app",
+		"webhookURL":"https://el-pipeline.example.com/",
+		"pushEvents" :"true",
+		"pushEventsBranchFilter" : "master",
+		"mergeRequestEvents" : "false"
+    }
+]

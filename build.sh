@@ -1,0 +1,5 @@
+go build -o out/gitlab-webhook-create-osx
+
+
+env GOOS=linux GOARCH=amd64 go build  -o out/gitalb-webhook-create-linux
+
